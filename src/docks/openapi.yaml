@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Laravel template
+  description: Laravel環境構築用テンプレート　API定義
+  version: 1.0.0
+servers:
+  - url: "https"
+paths:
+  /helloWorld:
+    get:
+      responses:
+        200:
+          description: "test api"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World"
