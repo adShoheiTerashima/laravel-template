@@ -104,7 +104,7 @@
 
 ### 開發の流れ
 
--   develop ブランチからブランチを切る（ブランチ名は、`feature/{backlogの番号}`にすること）
+-   develop ブランチからブランチを切る（ブランチ名は、`feature/backlog-{backlogの番号}`もしくは`feature/issue-{issue番号}`にすること）
 -   実装と単体テスト作成を終えたら、PR を develop 向けに出す
 -   PR を作成したことをチャットでレビュー担当者に通知
 -   マージされたら終了！
