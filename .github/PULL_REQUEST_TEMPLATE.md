@@ -5,10 +5,7 @@
 ## 背景や変更理由
 
 ※　 Backlog の番号があればここに記載してください。  
-※　 Backlog に対応内容が記載されていなければ、Backlog を更新するかここに詳細を記載してください。
-
-<!--- Why is this change required? What problem does it solve? -->
-<!--- If it fixes an open issue, please link to the issue here. -->
+※　 Backlog に詳細な内容が記載されていなければ、Backlog を更新するかここに詳細を記載してください。
 
 ---
 
