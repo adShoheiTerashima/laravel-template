@@ -11,7 +11,7 @@ services:
     ports:
       - "19882:8080"
     volumes:
-      - ../../src/docks/openapi.yaml:/usr/share/nginx/html/openapi.yaml
+      - ../../src/docs/openapi.yaml:/usr/share/nginx/html/openapi.yaml
     environment:
       API_URL: openapi.yaml
   swagger-api:
@@ -21,4 +21,4 @@ services:
       - "19883:4010"
     command: mock -h 0.0.0.0 /openapi.yaml
     volumes:
-      - ../../src/docks/openapi.yaml:/openapi.yaml
+      - ../../src/docs/openapi.yaml:/openapi.yaml
